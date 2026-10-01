@@ -1,25 +1,25 @@
 class Watasu < Formula
   desc "Command-line interface for Watasu"
   homepage "https://github.com/watasuio/watasu-cli"
-  version "0.1.13"
+  version "0.1.14"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.13/watasu_0.1.13_darwin_arm64.tar.gz"
-      sha256 "84f846611e3ec013644531d08db25f787270f57000d7b804576cd3b1bd74b868"
+      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.14/watasu_0.1.14_darwin_arm64.tar.gz"
+      sha256 "38e23400b91c90f808d6a465fbd50dc058d3da65f1b9f6421059c7cbfd6eb9f6"
     else
-      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.13/watasu_0.1.13_darwin_amd64.tar.gz"
-      sha256 "f730957964dfc8170a21ec3ffc43ad474e0f4c876cf32f810cf65ae837d3a475"
+      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.14/watasu_0.1.14_darwin_amd64.tar.gz"
+      sha256 "93bc56e8a9489843281c58a0a84c3444ce6dbb079a378d02d395a864193599df"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.13/watasu_0.1.13_linux_arm64.tar.gz"
-      sha256 "ef3da3abf6a94d7951a08c4b4c681b6bcf2c101a9948bf46f443125ddc842396"
+      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.14/watasu_0.1.14_linux_arm64.tar.gz"
+      sha256 "2da20e7db3ca9607d5d07fe83f3d2ea5e1623f8f69d70abda5354705b8310636"
     else
-      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.13/watasu_0.1.13_linux_amd64.tar.gz"
-      sha256 "d421e52cf18c2ffc88eb321d636d551d74550bd2f06524177fa870376bb627fa"
+      url "https://github.com/watasuio/watasu-cli/releases/download/v0.1.14/watasu_0.1.14_linux_amd64.tar.gz"
+      sha256 "58b2de00efb12c98098798dc229dd7374d62ef1d1e9ea09f0b0f453b7e98df2b"
     end
   end
 
